@@ -1,0 +1,257 @@
+body {
+    background-image: url("www.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h2 {
+    color: white;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 70px;
+  }
+ 
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  ul {
+    padding-left: 35%;
+  }
+  div nav ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 21px;
+    transition: transform(0.4s);
+    transition-duration: 500ms;
+  }
+  div nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(60, 255, 0);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  div nav ul li:hover {
+    transform: scale(1.09);
+  }
+  
+  .intr {
+    padding-left: 7%;
+    padding-top: 8%;
+  }
+  
+  .sagar {
+    border-radius: 20px;
+    transition: transform(0.4s);
+    transition-duration: 500ms;
+  }
+  
+  .sagar:hover {
+    transform: scale(1.08);
+  }
+  
+  
+  .introduction {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    padding-left: 5%;
+    padding-bottom: 20%;
+  }
+  .introduction span1 {
+    color: rgb(60, 255, 0);
+    font-size: 35px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: relative;
+  }
+  .hello {
+    font-size: 15px;
+  }
+  
+  .second .pic2 {
+    margin: 0 0 0 -17%;
+  }
+  
+  .head2 {
+    padding-left: 100px;
+    font-size: 20px;
+    margin: 0 35px 0 0;
+  }
+  .head2 {
+    text-align: center;
+    color: white;
+  }
+  h2 {
+    color: rgb(245, 144, 4);
+  }
+  h3 {
+    text-shadow: 2px 5px rgb(10, 230, 36);
+  }
+  h4 {
+    color:rgb(12, 162, 178); ;
+  }
+  .head2 .about {
+    text-align: center;
+    color: rgba(58, 6, 248, 0.566);
+  }
+  
+  .pic2 {
+    padding-left: 15%;
+  }
+  .pic2 {
+    padding-top: 80px;
+  }
+  /*onfoceboea8*/
+  .foot {
+    width: 100%;
+    height: 50px;
+  }
+  .foot p {
+    padding-left: 41%;
+    color: white;
+  }
+  .foot a {
+    color: red;
+    padding-left: 46.5%;
+    text-decoration: none;
+  }
+  .foot a:hover {
+    color: yellow;
+  }
+  /*wegonisrolubgorsdg*/
+  .contact p {
+    padding-left: 46%;
+    font-size: 13px;
+    color: white;
+    text-decoration: underline;
+  }
+  .contact nav {
+    padding-left: 42.5%;
+  }
+  .contact nav a {
+    padding-left: 15 px;
+    color: red;
+  }
+  .contact nav a img {
+    border-radius: 20px;
+    padding: 5px;
+    transition: transform(0.4s);
+    transition-duration: 500ms;
+  }
+  .contact nav a img:hover {
+    transform: scale(1.07);
+  }
+  
+  @media screen and (max-width: 480px) {
+    h2 {
+      font-size: 40px;
+      padding-right: 10%;
+    }
+    div nav ul li {
+      font-size: 22px;
+    }
+    div nav ul {
+      padding-top: 10%;
+      padding-left: 50%;
+    }
+    .hello {
+      font-size: 10px;
+    }
+    .sagar {
+      height: 300px;
+      padding-right: 205;
+    }
+    .introduction span1 {
+      font-size: 22px;
+    }
+    .html {
+      padding-left: 026;
+    }
+    .introduction span1 {
+      display: flex;
+    }
+  
+    .img {
+      height: 300px;
+    }
+    .pic2 {
+      padding-left: 20%;
+    }
+    .head2 {
+      padding-right: 20%;
+    }
+    h5 {
+      font-size: 12px;
+      display: flex;
+    }
+    .foot {
+      text-align: center;
+    }
+    .foot a {
+      align-items: flex-end;
+    }
+    nav a {
+      padding-right: 20%;
+    }
+  
+    .contact {
+      text-align: center;
+    }
+  }
+  /****oduffwrobgvurovgbeuvoe*****/
+  @media screen and (min-width: 900px) and (max-width: 1300px) {
+    .first h2 {
+      font-size: 55px;
+      text-decoration: none;
+      display: flex;
+    }
+    .first ul li {
+      font-size: 23px;
+    }
+    .first h2 {
+      padding-left: 4%;
+    }
+    .first nav {
+      padding-inline: 7%;
+    }
+    .first ul {
+      display: flex;
+    }
+    .first nav h2 {
+      display: inline-block;
+    }
+    /**tvjutctyxhyxk**/
+    .intro .intr .sagar {
+      height: 520px;
+    }
+    .intro .intr .hello {
+      font-size: 20px;
+    }
+    .introduction h3 {
+      padding: 4%;
+    }
+    .intro {
+      padding-right: 8%;
+    }
+    /****iebfviwuevbiud**/
+    .pic2 {
+      padding-right: 15%;
+    }
+    .pic2 .head2 {
+      padding-right: 4%;
+    }
+    .foot {
+      padding-right: 9%;
+    }
+    .contact p {
+      align-items: center;
+    }
+    .contact nav {
+      align-items: baseline;
+    }
+    .contact nav a {
+      padding: 1.5%;
+    }
+  }
